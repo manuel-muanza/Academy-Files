@@ -1,0 +1,633 @@
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.cover-section{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(222, 242, 246);
+    margin-bottom: 10px;
+}
+
+.cover-section h1{
+    font-size: 20pt;
+    font-family: 'arial';
+}
+
+.info-section{
+    width: 100%;
+}
+
+.info-section-content{
+    width: 90%;
+    margin: auto;
+}
+
+@media (max-width:600px){
+    .cover-section{
+        height: 70px;
+    }
+    
+    .cover-section h1{
+        font-size: 14pt;
+    }
+
+    .info-section-content{
+        width: 95%;
+    }
+
+}
+
+
+@media (max-width:450px){
+    .cover-section{
+        height: 50px;
+    }
+
+    .cover-section h1{
+        font-size: 10pt;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-talk-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.contact-talk-section-frist{
+    width: 50%;
+}
+
+.contact-talk-section-frist h1{
+    font-size: 26pt;
+    margin-bottom: 15px;
+}
+
+.contact-talk-section-frist p{
+    font-size: 12pt;
+}
+
+.contact-talk-section-second{
+    width: 50%;
+}
+
+.contact-talk-section-second h1{
+    font-size: 14pt;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contact-talk-section-second .setion-type-contact{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.contact-talk-section-second .setion-type-contact span{
+    font-size: 14pt;
+    margin: 2px 4px;
+    color: rgb(0, 156, 184);
+}
+
+.contact-talk-section-second .setion-type-contact h2{
+    font-size: 14pt;
+}
+
+.contact-talk-section-second p{
+    font-size: 12pt;
+    margin-top: 6px;
+}
+
+@media (max-width:1000px){
+    .contact-talk-section{
+        margin-bottom: 70px;
+    }
+
+    .contact-talk-section-frist h1{
+        font-size: 20pt;
+        margin-bottom: 12px;
+    }
+    
+    .contact-talk-section-frist p{
+        font-size: 10pt;
+    }
+
+    .contact-talk-section-second h1{
+        font-size: 12pt;
+    }
+
+    .contact-talk-section-second .setion-type-contact span{
+        font-size: 12pt;
+        margin: 2px 4px;
+    }
+    
+    .contact-talk-section-second .setion-type-contact h2{
+        font-size: 11pt;
+    }
+    
+    .contact-talk-section-second p{
+        font-size: 9pt;
+        margin-top: 6px;
+    }
+}
+
+@media (max-width:710px){
+    .contact-talk-section{
+        width: 100%;
+        display: inline;
+        justify-content: left;
+        align-items: left;
+        margin-bottom: 0px;
+    }
+    .contact-talk-section-frist{
+        width: 100%;
+    }
+    
+    .contact-talk-section-frist h1{
+        font-size: 14pt;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    .contact-talk-section-frist p{
+        font-size: 9pt;
+    }
+
+    .contact-talk-section-second{
+        width: 100%;
+    }
+
+    .contact-talk-section-second .setion-type-contact{
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width:500px){
+    .contact-talk-section-frist h1{
+        font-size: 10pt;
+    }
+    .contact-talk-section-frist p{
+        font-size: 8pt;
+    }
+
+    .contact-talk-section-second h1{
+        font-size: 10pt;
+    }
+
+    .contact-talk-section-second .setion-type-contact span{
+        font-size: 9pt;
+        margin: 0px 4px;
+    }
+    
+    .contact-talk-section-second .setion-type-contact h2{
+        font-size: 9pt;
+    }
+    
+    .contact-talk-section-second p{
+        font-size: 8pt;
+        margin-top: 6px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.contacts-message-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.contacts-message-section-frist{
+    width: 50%;
+}
+
+.contacts-message-section-frist h1{
+    width: 90%;
+    font-size: 26pt;
+    margin-bottom: 15px;
+}
+
+.contacts-message-section-frist p{
+    width: 80%;
+    font-size: 12pt;
+    margin-top: 15px;
+}
+
+.contacts-message-section-frist button{
+    width: 60%;
+    padding: 14px;
+    font-size: 12pt;
+    margin-top: 30px;
+    border:1px solid rgb(0, 156, 184);
+    background-color: rgb(0, 156, 184);
+    color: white;
+    cursor: pointer;
+}
+
+.contacts-message-section-second{
+    width: 50%;
+}
+
+.message-inputs-form select{
+    width: 100%;
+    height: 25px;
+    border:0;
+    border-bottom:1px solid gray;
+    font-size: 12pt;
+    cursor: pointer;
+    outline: none;
+}
+
+.message-inputs-form input{
+    width: 100%;
+    height: 25px;
+    border:0;
+    border-bottom:1px solid gray;
+    font-size: 12pt;
+    outline: none;
+}
+
+.message-inputs-form-especial{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.message-inputs-form-especial .message-inputs-form{
+    width: 48%;
+}
+
+.message-inputs-form p{
+    width: 100%;
+    height: 15px;
+    font-size: 8pt;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.message-inputs-form textarea{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 50px;
+    max-height: 140px;
+    border:0;
+    border-bottom:1px solid gray;
+    font-size: 12pt;
+    outline: none;
+}
+
+.message-inputs-form button{
+    width: 250px;
+    padding: 8px;
+    border:1px solid rgb(222, 242, 246);
+    color: black;
+    font-size: 14pt;
+    cursor: pointer;
+    background-color: rgb(222, 242, 246);
+}
+
+@media (max-width:1000px){
+    .contacts-message-section{
+        margin-bottom: 70px;
+    }
+ 
+    .contacts-message-section-frist h1{
+        font-size: 20pt;
+        margin-bottom: 12px;
+    }
+    
+    .contacts-message-section-frist p{
+        font-size: 9pt;
+        margin-top: 12px;
+    }
+    
+    .contacts-message-section-frist button{
+        width: 70%;
+        padding: 12px;
+        font-size: 10pt;
+        margin-top: 20px;
+    }
+
+    .message-inputs-form select{
+        height: 20px;
+        font-size: 9pt;
+    }
+    
+    .message-inputs-form input{
+        height: 20px;
+        font-size: 9pt;
+    }
+
+    .message-inputs-form textarea{
+        min-height: 40px;
+        max-height: 120px;
+        font-size: 9pt;
+    }
+    
+    .message-inputs-form button{
+        width: 200px;
+        padding: 7px;
+        font-size: 12pt;
+    }
+}
+
+@media (max-width:710px){
+    .contacts-message-section{
+        width: 100%;
+        display: inline;
+        justify-content: left;
+        align-items: left;
+        margin-bottom: 0px;
+    }
+    
+    .contacts-message-section-frist{
+        width: 100%;
+    }
+    
+    .contacts-message-section-frist h1{
+        width: 100%;
+        font-size: 14pt;
+        margin-bottom: 10px;
+        margin-top: 40px;
+    }
+    
+    .contacts-message-section-frist p{
+        width: 100%;
+        font-size: 10pt;
+        margin-top: 10px;
+    }
+    
+    .contacts-message-section-frist button{
+        width: 200px;
+        padding: 7px;
+        font-size: 8pt;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .contacts-message-section-second{
+        width: 100%;
+    }
+
+    .message-inputs-form button{
+        width: 200px;
+        padding: 7px;
+        font-size: 8pt;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width:500px){
+    .contacts-message-section{
+        margin-bottom: 70px;
+    }
+ 
+    .contacts-message-section-frist h1{
+        font-size: 10pt;
+        margin-bottom: 12px;
+    }
+    
+    .contacts-message-section-frist p{
+        font-size: 8pt;
+        margin-top: 12px;
+    }
+    
+    .contacts-message-section-frist button{
+        width: 150px;
+        padding: 7px;
+        font-size: 8pt;
+        margin-top: 20px;
+    }
+
+    .message-inputs-form button{
+        width: 150px;
+        padding: 7px;
+        font-size: 8pt;
+        margin-bottom: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.contacts-find-us-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.contacts-find-us-section-frist{
+    width: 50%;
+}
+
+.contacts-find-us-section-frist h1{
+    width: 90%;
+    font-size: 26pt;
+    margin-bottom: 20px;
+}
+
+.contacts-find-us-section-frist .setion-contact-address{
+    width: 90%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.contacts-find-us-section-frist .setion-contact-address span{
+    font-size: 14pt;
+    margin: 1px 0px;
+    color: rgb(0, 156, 184);
+}
+
+.contacts-find-us-section-frist .setion-contact-address h2{
+    font-size: 14pt;
+    margin-left: 8px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.contacts-find-us-section-frist p{
+    width: 80%;
+    font-size: 10pt;
+    margin-top: 6px;
+}
+
+.contacts-find-us-section-second{
+    width: 50%;
+}
+
+.contacts-find-us-section-second .address-gps{
+    width: 100%;
+    height: 200px;
+}
+
+.address-gps{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.address-gps iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+@media (max-width:1000px){
+    .contacts-find-us-section{
+        margin-bottom: 70px;
+    }
+    
+    .contacts-find-us-section-frist h1{
+        font-size: 20pt;
+        margin-bottom: 15px;
+    }
+    
+    .contacts-find-us-section-frist .setion-contact-address span{
+        font-size: 12pt;
+        margin: 1px 0px;
+    }
+    
+    .contacts-find-us-section-frist .setion-contact-address h2{
+        font-size: 10pt;
+        margin-left: 8px;
+        font-weight: normal;
+        margin-bottom: 12px;
+    }
+    
+    .contacts-find-us-section-frist p{
+
+        font-size: 9pt;
+        margin-top: 4px;
+    }
+}
+
+@media (max-width:710px){
+    .contacts-find-us-section{
+        display: inline;
+    }
+    
+    .contacts-find-us-section-frist{
+        width: 100%;
+    }
+    
+    .contacts-find-us-section-frist h1{
+        width: 100%;
+        font-size: 14pt;
+        margin-bottom: 10px;
+    }
+    
+    .contacts-find-us-section-frist .setion-contact-address{
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .contacts-find-us-section-frist .setion-contact-address span{
+        font-size: 12pt;
+        margin: 1px 0px;
+    }
+    
+    .contacts-find-us-section-frist .setion-contact-address h2{
+        font-size: 12pt;
+        margin-left: 8px;
+        font-weight: normal;
+        margin-bottom: 10px;
+    }
+    
+    .contacts-find-us-section-frist p{
+        width: 100%;
+        font-size: 9pt;
+        margin-top: 6px;
+        margin-bottom: 30px;
+    }
+    
+    .contacts-find-us-section-second{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:500px){
+    .contacts-find-us-section{
+        margin-bottom: 70px;
+    }
+    
+    .contacts-find-us-section-frist h1{
+        font-size: 10pt;
+        margin-bottom: 15px;
+    }
+    
+    .contacts-find-us-section-frist .setion-contact-address span{
+        font-size: 10pt;
+        margin: 1px 0px;
+    }
+    
+    .contacts-find-us-section-frist .setion-contact-address h2{
+        font-size: 10pt;
+        margin-left: 8px;
+        font-weight: normal;
+        margin-bottom: 12px;
+    }
+    
+    .contacts-find-us-section-frist p{
+        font-size: 8pt;
+        margin-top: 4px;
+    }
+}

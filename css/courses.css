@@ -1,0 +1,270 @@
+.cover-section{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(222, 242, 246);
+    margin-bottom: 10px;
+}
+
+.cover-section h1{
+    font-size: 10pt;
+    font-family: 'arial';
+}
+
+.info-section{
+    width: 100%;
+}
+
+.section-courses{
+    width: 90%;
+    margin: auto;
+}
+
+.courses-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course-list {
+    flex: 1;
+    min-width: 30%; /* Defina a largura mínima desejada para os produtos */
+    max-width: 30%;
+    margin: 10px; /* Adicione margens conforme necessário para o espaçamento entre os produtos */
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.course-list:hover{
+    transform: scale(1.05);
+}
+
+.course-list img{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.course-list h1{
+    font-size: 10pt;
+    margin-bottom: 10px;
+}
+
+.course-list h2{
+    font-size: 10pt;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+.section-courses-others-details-1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-bottom: 1px solid gray;
+    padding: 5px 0;
+}
+
+.section-courses-others-details-1 span{
+    font-size: 13pt;
+    margin-right: 10px;
+}
+
+.section-courses-others-details-1 h3{
+    font-size: 9pt;
+}
+
+.section-courses-others-details-2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.section-courses-others-details-2 button{
+    width: auto;
+    font-size: 10pt;
+    margin: 3px 3px;
+    border:1px solid rgb(0, 156, 184);
+    color: rgb(0, 156, 184);
+    background-color: transparent;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+#btn-description-courses{
+    width: 60%;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: rgb(222, 242, 246);
+    color: black;
+    font-size: 12pt;
+    margin-bottom: 10px;
+    border:1px solid rgb(222, 242, 246);
+    cursor: pointer;
+}
+
+
+@media (max-width:1350px){
+
+    .course-list {
+        min-width: 25%; /* Defina a largura mínima desejada para os produtos */
+        max-width: auto;
+    }
+
+    .course-list img{
+        width: 100%;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+
+    .course-list h1{
+        font-size: 9pt;
+        margin-bottom: 10px;
+    }
+    
+    .course-list h2{
+        font-size: 8pt;
+        margin-bottom: 40px;
+        font-weight: bold;
+        color: green;
+    }
+
+    #btn-description-courses{
+        width: 80%;
+        padding: 8px;
+        border-radius: 4px;
+        background-color: transparent;
+        font-size: 10pt;
+        margin-bottom: 10px;
+        border:1px solid gray;
+        cursor: pointer;
+    }
+   
+}
+
+@media (max-width:900px){
+
+    .course-list {
+        min-width: 44%; /* Defina a largura mínima desejada para os produtos */
+        max-width: auto;
+    }
+}
+
+@media (max-width:750px){
+
+    .course-list {
+        min-width: 42%; /* Defina a largura mínima desejada para os produtos */
+        max-width: auto;
+    }
+}
+
+
+@media (max-width:600px){
+
+    .section-courses{
+        width: 96%;
+        margin: auto;
+    }
+    
+    .course-list {
+        flex: 1;
+        min-width: 42%; /* Defina a largura mínima desejada para os produtos */
+        margin: 10px; /* Adicione margens conforme necessário para o espaçamento entre os produtos */
+        padding: 10px;
+    }
+
+    .course-list img{
+        width: 100%;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+
+    .course-list h1{
+        font-size: 7pt;
+        margin-bottom: 10px;
+    }
+    
+    .course-list h2{
+        font-size: 8pt;
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: green;
+    }
+
+    .section-courses-others-details-1 span{
+        font-size: 9pt;
+        margin-right: 5px;
+    }
+    
+    .section-courses-others-details-1 h3{
+        font-size: 7pt;
+    }
+    
+    .section-courses-others-details-2{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    
+    .section-courses-others-details-2 button{
+        font-size: 6pt;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    #btn-description-courses{
+        width: 80%;
+        padding: 7px;
+        font-size: 9pt;
+    }
+   
+}
+
+
+@media (max-width:550px){
+
+    .section-courses{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .course-list {
+        flex: 1;
+        min-width: 100%; /* Defina a largura mínima desejada para os produtos */
+        max-width: 100%; /* Defina a largura mínima desejada para os produtos */
+        margin: 10px 0; /* Adicione margens conforme necessário para o espaçamento entre os produtos */
+        padding: 10px 0;
+    }
+
+    .course-list img{
+        width: 100%;
+        height: 80px;
+        margin-bottom: 20px;
+    }
+
+    .course-list h1{
+        font-size: 7pt;
+        margin-bottom: 10px;
+    }
+    
+    .course-list h2{
+        font-size: 8pt;
+        font-weight: bold;
+        color: green;
+    }
+
+    #btn-description-courses{
+        width: 80%;
+        padding: 7px;
+        font-size: 9pt;
+    }
+   
+}
